@@ -12,8 +12,9 @@ public class OpenApiConfig {
     @Bean
     public OpenAPI usersMicroserviceOpenAPI() {
         return new OpenAPI()
-                .info(new Info().title("Brasil Prev API´s")
-                                 .description("Projeto do Brasil Prev")
-                                 .version("1.0"));
+                .info(new Info()
+                		.title("Brasil Prev API´s")
+                         .description("Projeto do Brasil Prev")
+                         .version("1.0"));
     }
 }

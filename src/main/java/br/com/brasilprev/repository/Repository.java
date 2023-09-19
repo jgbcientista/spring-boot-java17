@@ -1,6 +1,6 @@
 package br.com.brasilprev.repository;
 
-public class Service {
+public class Repository {
 
   
 }

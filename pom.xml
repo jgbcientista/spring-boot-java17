@@ -19,6 +19,11 @@
 	</properties>
 	<dependencies>
 
+		<!-- CONFIG - SPRING JDBC -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+		</dependency>
 
 		<!-- CONFIG - SPRING DATA -->
 		<dependency>

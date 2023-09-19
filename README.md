@@ -19,7 +19,3 @@
   1. Cadastro / Alteração / Exclusão de pacientes
   2. Agendamento e cancelamento de consultas
   3. Cadastro / Alteração / Exclusão de Médicos
-
-<h3> Documentação - Ferramenta </h3>
-- Trello
-- Link : (https://trello.com/b/k4GFFxc3/projeto-rest)

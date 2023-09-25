@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: criar uma API RESTful com Spring Boot
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: JOAO
+    family-names: JOAO GUEDES
+  - name-suffix: Professor
+    given-names: JOAO
+    family-names: GUEDES
+repository-code: >-
+  https://github.com/jgbcientista/backend-java17-token
+keywords:
+  - spring boot
+  - monitoria
+  - curso
+  - api
+license: MIT License

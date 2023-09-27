@@ -42,7 +42,7 @@ public class SecurityConfig {
                                 .getSharedObject(AuthenticationManagerBuilder.class);
                 
                 http.authorizeHttpRequests()
-                .requestMatchers("/user/**").permitAll() // nao precisa de token
+                .requestMatchers("/usuario/**").permitAll() // nao precisa de token
                 .requestMatchers("/swagger-ui/**", "/swagger-resources/*", "/v3/api-docs/**").permitAll();
                 
                 authenticationManagerBuilder.userDetailsService(this.userDetailsService).passwordEncoder(bCryptPasswordEncoder());

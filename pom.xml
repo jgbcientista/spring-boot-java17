@@ -9,30 +9,37 @@
 		<version>3.0.5</version>
 		<relativePath />
 	</parent>
-	
+
 	<groupId>br.com.brasilprev</groupId>
-	
+
 	<artifactId>brasilprev-api</artifactId>
-	
+
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<name>Joao</name>
-	
+
 	<description>Spring Boot API for To Do App</description>
-	
-	
+
+
 	<properties>
 		<java.version>17</java.version>
 	</properties>
-	
-	
+
+
 	<dependencies>
+
+		<!--SQL Server/mssql-jdbc -->
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-		
+
 
 		<dependency>
 			<groupId>mysql</groupId>
